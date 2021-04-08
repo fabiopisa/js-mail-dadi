@@ -14,14 +14,14 @@ var mails =[
   "speriamo.inbene@gmail.com"
 ];
 
-var mail_richiesta = prompt("digita qui la tua mail");
+var mail_to_found = prompt("digita qui la tua mail");
 
 var accesso = false;
 
 for(var i=0; i<mails.length; i++){
   var nome= mails[i]
   console.log(nome)
-  if(nome === mail_richiesta){
+  if(nome === mail_to_found){
     accesso = true
     console.log("TROVATO...ACCESSO CONFERMATO");
     break;
